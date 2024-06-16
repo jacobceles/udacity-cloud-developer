@@ -17,14 +17,14 @@ To get started with the project, follow these steps:
 
 ## Screenshots
 
-![Application](deployment_screenshots/application.png)
+![Application](deployment_screenshot/application.png)
 
-![Environment](deployment_screenshots/environment.png)
+![Environment](deployment_screenshot/environment.png)
 
-![Events](deployment_screenshots/events.png)
+![Events](deployment_screenshot/events.png)
 
-![Health](deployment_screenshots/health.png)
+![Health](deployment_screenshot/health.png)
 
-![Failed](deployment_screenshots/failed.png)
+![Failed](deployment_screenshot/failed.png)
 
-![Success](deployment_screenshots/success.png)
+![Success](deployment_screenshot/success.png)
