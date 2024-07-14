@@ -70,6 +70,12 @@ spec:
           readOnly: true        
       restartPolicy: Always
       volumes:
-      - name: aws-secret
-        secret:
-          secretName: aws-secret
+        - name: env-config
+          configMap:
+            name: env-config
+        - name: aws-secret
+          secret:
+            secretName: aws-secret
+        - name: env-secret
+          secret:
+            secretName: env-secret
