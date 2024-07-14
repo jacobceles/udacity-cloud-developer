@@ -22,30 +22,5 @@ jobs:
         username: ${{ secrets.DOCKERHUB_USERNAME }}
         password: ${{ secrets.DOCKERHUB_TOKEN }}
     
-    - name: Build and push reverseproxy image
-      uses: docker/build-push-action@v4
-      with:
-        context: ./Monolith to Microservices at Scale/udagram-reverseproxy
-        push: true
-        tags: ${{ secrets.DOCKERHUB_USERNAME }}/reverseproxy:latest
-    
-    - name: Build and push backend_user image
-      uses: docker/build-push-action@v4
-      with:
-        context: ./Monolith to Microservices at Scale/udagram-api-user
-        push: true
-        tags: ${{ secrets.DOCKERHUB_USERNAME }}/udagram-api-user:latest
-    
-    - name: Build and push backend_feed image
-      uses: docker/build-push-action@v4
-      with:
-        context: ./Monolith to Microservices at Scale/udagram-api-feed
-        push: true
-        tags: ${{ secrets.DOCKERHUB_USERNAME }}/udagram-api-feed:latest
-    
-    - name: Build and push frontend image
-      uses: docker/build-push-action@v4
-      with:
-        context: ./Monolith to Microservices at Scale/udagram-frontend
-        push: true
-        tags: ${{ secrets.DOCKERHUB_USERNAME }}/udagram-frontend:local
+    - name: Build Docker images
+      run: docker-compose -f "Monolith to Microservices at Scale/docker-compose-build.yaml" build
