@@ -24,3 +24,6 @@ jobs:
     
     - name: Build Docker images
       run: docker-compose -f "Monolith to Microservices at Scale/docker-compose-build.yaml" build
+
+    - name: Push Docker images
+      run: docker-compose -f "Monolith to Microservices at Scale/docker-compose-build.yaml" push
