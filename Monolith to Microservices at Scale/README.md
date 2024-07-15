@@ -4,7 +4,7 @@
 
 This repository contains a comprehensive CI/CD pipeline and deployment setup using Docker, GitHub Actions, and Kubernetes. The project demonstrates the entire workflow from code commit to deployment in a scalable environment.
 
-## Directory Structure
+## Screenshots
 
 The following folders contain relevant documentation and screenshots related to different aspects of the project:
 
