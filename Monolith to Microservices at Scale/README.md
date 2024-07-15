@@ -23,7 +23,7 @@ The following folders contain relevant documentation and screenshots related to 
 - **horizontal_scaling**: Configurations and screenshots related to horizontal scaling setups.
 ![horizontal_scaling](screenshots/horizontal_scaling.png)
 - **kubernetes-services**: Details about the Kubernetes services defined in the project.
-![kubernetes](screenshots/kubernetes.png)
+![kubernetes](screenshots/kubernetes_services.png)
 - **pods**: Information and logs regarding Kubernetes pods.
 ![pods](screenshots/pods.png)
 - **ui_multi_upload_test**: Tests for multi-upload functionality in the UI.
