@@ -11,7 +11,7 @@ The following folders contain relevant documentation and screenshots related to 
 - **cicd**: CI/CD pipeline configurations and related documentation.
 ![cicd](screenshots/cicd.png)
 - **docker hub**: Docker images pushed to Docker Hub.
-![docker hub](screenshots/docker hub.png)
+![docker hub](screenshots/docker_hub.png)
 - **feed_api**: Backend API implementation for feed management.
 ![feed_api](screenshots/feed_api.png)
 - **feed_item_api**: API for handling individual feed items.
